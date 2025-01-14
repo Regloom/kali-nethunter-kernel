@@ -6,26 +6,12 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=NetHunter Kernel for Poco X3 NFC
-do.devicecheck=1
+kernel.string=Lineage21 non-GKI KSU kernel for Poco X3 NFC
+do.devicecheck=0
 do.modules=1
 do.systemless=0 #Never use this for NetHunter kernels as it prevents us from writing to /lib/modules
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=PocoX3NFC
-device.name2=surya
-device.name3=Poco X3 NFC
-device.name4=Surya
-device.name5=PocoX3
-device.name6=surya
-device.name7=Poco X3
-device.name8=surya
-device.name9=PocoX3NFC
-device.name10=PocoX#NFC
-device.name11=hotdogb
-device.name12=hotdog
-device.name13=PocoX3NFC
-device.name14=PocoX3NFC
 supported.versions=
 supported.patchlevels=
 '; } # end properties
