@@ -6,7 +6,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Lineage21 non-GKI KSU kernel for Poco X3 NFC
+kernel.string=PocoX3 Lineage22 non-GKI KSU-Next
 do.devicecheck=0
 do.modules=1
 do.systemless=0 #Never use this for NetHunter kernels as it prevents us from writing to /lib/modules
